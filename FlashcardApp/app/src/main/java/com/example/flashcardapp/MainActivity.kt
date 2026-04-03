@@ -36,6 +36,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
+    println("Hello Flashcard")
 }
 
 @Preview(showBackground = true)
