@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Khoa Toán Tin",
+    "description": "Đào tạo Toán học và Công nghệ thông tin",
+    "image": "math_it",
+    "contact": "Email: toantin@ued.edu.vn"
+  },
+  {
+    "id": 2,
+    "name": "Khoa Ngữ Văn",
+    "description": "Đào tạo giáo viên Ngữ văn",
+    "image": "literature",
+    "contact": "Email: nguvan@ued.edu.vn"
+  },
+  {
+    "id": 3,
+    "name": "Khoa Lý Hóa",
+    "description": "Đào tạo giáo viên Khoa học Tự nhiên",
+    "image": "physics_chemistry",
+    "contact": "Email: lyhoa@ued.edu.vn"
+  }
+]
