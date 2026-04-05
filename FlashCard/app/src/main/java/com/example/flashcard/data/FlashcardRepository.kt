@@ -48,7 +48,7 @@ class FlashcardRepository(private val flashcardDao: FlashcardDao) {
         val updatedFlashcard = flashcard.copy(
             interval = sm2Result.interval,
             repetition = sm2Result.repetition,
-            easinessFactor = sm2Result.easinessFactor,
+            easinessFactor = sm2Result.easinessFactor,// test commit
             nextReviewDate = calendar.timeInMillis
         )
         flashcardDao.updateFlashcard(updatedFlashcard)

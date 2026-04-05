@@ -1,6 +1,6 @@
 package com.example.flashcard.data
 
-import retrofit2.http.GET// test commit
+import retrofit2.http.GET
 
 interface FlashcardApi {
 
