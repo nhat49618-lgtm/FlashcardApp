@@ -69,10 +69,13 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
     implementation(libs.kotlinx.serialization.json)
-    implementation("com.squareup.retrofit2:retrofit:2.9.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
-    implementation("com.google.dagger:hilt-android:2.48")
-    ksp("com.google.dagger:hilt-compiler:2.48")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+
+    // Dòng này bạn đã có để dùng icon Save:
+    implementation("androidx.compose.material:material-icons-extended")
+
+    // ... các
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
